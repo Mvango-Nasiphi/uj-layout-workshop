@@ -5,10 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        .Pizza {
+            border: 1px solid;
+            padding: 1em;
+            margin: 1em;
+            border-radius: 1em;
+            background-color: plum;
+        }
+        @media (min-width: 768px) {
+            .Pizzas {
+            display: flex;
+        }
+            body {
+            background-color: orangered;
+        }
+        }
+        .footer {
+            width: 95%;
+            border: 1px solid;
+            padding: 1em;
+            margin: 1em;
+            border-radius: 1em;
+            background-color: brown;
+            color: black;
+            display: inline-flex;
+        }
+        .address {
+            margin-left: 50%;
+        }
+        
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Perfect Pizza</h1>
+        <div class="Pizzas">
+            <div style="background-color: grey;" class="Pizza">
+                <img src="https://user-images.githubusercontent.com/34037/167314003-8ded573d-4bb2-447f-b27c-5545631b1904.png" alt="">
+                <h2>Medium pizza</h2>
+                <h3>R79.99</h3>
+                Medium margerita pizza with 3 toppings max. 2 or less meat topping. 3 or less other toppings
+            </div>
+
+
+            <div style="background-color: burlywood;" class="Pizza">
+                <img src="https://user-images.githubusercontent.com/34037/167313920-09aeb40f-9952-439b-8e54-a04c02caa427.png" alt="">
+                <h2>Large pizza</h2>
+                <h3>R99.99</h3>   
+                Large margerita pizza with 3 toppings max. 3 or less meat topping. 3 or less other toppings
+            </div>
+
+
+            <div style="background-color: coral;" class="Pizza">
+                <img src="https://user-images.githubusercontent.com/34037/167314038-e58b68c0-2742-43c6-a358-8b94d3c99617.png" alt=""> 
+                <h2>Small pizza</h2>
+                <h3>R59.99</h3>
+                Small margerita pizza with 3 toppings max. 1 or less meat topping. 3 or less other toppings
+            </div> 
+        </div>
+        <div class="footer">
+            <div class="contacts">
+                <p>contact us at: (021)-541-1000</p>
+                <p>/fb</p>
+                <p>/insta</p>
+                <p>@perfectpizza</p>    
+            </div>    
+            <div class="address">
+                <p>Pizza Plaza</p>
+                <p>Dough Road</p>
+                <p>Base Town</p>
+            </div>
+        </div>
     </div>
     
 </body>
